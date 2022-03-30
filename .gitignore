@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Hide Chrome Binary Files
 _metadata/
+
+# Hide Build Folder
+builds/

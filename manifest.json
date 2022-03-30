@@ -8,6 +8,7 @@
         "default_icon": "icon.png"
     },
     "icons": {
+        "128": "icon-128.png",
         "200": "icon.png" 
     },
     "permissions": [
