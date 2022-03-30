@@ -1,0 +1,26 @@
+{
+    "manifest_version" : 3,
+    "name" : "AT&T Coverage Map - mmWave",
+    "version" : "1.0.0",
+    "description" : "Enable mmWave coverage on the official AT&T Coverage Map",
+    "action": {
+        "default_title": "AT&T Coverage Map - mmWave",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "200": "icon.png" 
+    },
+    "permissions": [
+       "declarativeNetRequest"
+    ],
+    "host_permissions": [
+    	"*://*.att.com/gla6/OneMap/OneMap.Web/Home/TileService"
+  	],
+    "declarative_net_request" : {
+      "rule_resources" : [{
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }]
+    }
+}
