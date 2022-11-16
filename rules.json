@@ -9,7 +9,7 @@
             "addOrReplaceParams": [
               {
                 "key": "csLayerIds", 
-                "value": "ATT_Roam_2GData,Roam_Data_Canada,Roam_Data_Mexico,Coverage_Roam_LTE,Coverage_HSPAPlus_Data,Coverage_4GLTE_Data,Coverage_5GEvo_Data,coverage_5Gmmwave"
+                "value": "ATT_Roam_2GData,Roam_Data_Canada,Roam_Data_Mexico,Coverage_Roam_LTE,Coverage_HSPAPlus_Data,Coverage_4GLTE_Data,Coverage_5GEvo_Data,dom_5gplus,coverage_5Gmmwave"
               }
             ]
           }
@@ -17,7 +17,7 @@
       }
      },
     "condition" : {
-      "urlFilter" : "https://*.att.com/gla6/OneMap/OneMap.Web/Home/TileService?*csLayerIds=*Coverage_5GEvo_Data*",
+      "urlFilter" : "https://*.att.com//gla6/OneMap/OneMap.Web/Home/TileService?*csLayerIds=*Coverage_Roam_LTE*",
       "resourceTypes" : ["image"]
     }
   }]
