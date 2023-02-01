@@ -17,7 +17,8 @@
       }
      },
     "condition" : {
-      "urlFilter" : "https://*.att.com//gla6/OneMap/OneMap.Web/Home/TileService?*csLayerIds=*Coverage_Roam_LTE*",
+      "urlFilter" : "https://*.att.com/gla6/OneMap/OneMap.Web/Home/TileService?*csLayerIds=*Coverage_Roam_LTE*",
       "resourceTypes" : ["image"]
     }
   }]
+  
